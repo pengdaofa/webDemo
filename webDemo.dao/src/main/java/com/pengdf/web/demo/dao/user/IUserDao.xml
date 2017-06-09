@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.bug.dao.user.IUserDao">
+<mapper namespace="com.pengdf.web.demo.dao.user.IUserDao">
     <insert id="addUser" parameterType="com.pengdf.web.demo.user.user.UserVO">
         insert into user_t
         (
