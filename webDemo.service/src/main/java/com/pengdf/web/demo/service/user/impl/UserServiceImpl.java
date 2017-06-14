@@ -14,7 +14,7 @@ public class UserServiceImpl implements IUserService {
     private IUserDao userDao;
 
     @Override
-    public void addUser(UserVO user) throws Exception{
+    public void addUser(UserVO user){
         userDao.addUser(user);
     }
 }
